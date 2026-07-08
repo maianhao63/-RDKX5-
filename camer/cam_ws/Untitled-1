@@ -1,0 +1,6 @@
+from maix import display, camera
+
+cam = camera.Camera(640, 480)
+disp = display.Display()
+while 1:
+    disp.show(cam.read())

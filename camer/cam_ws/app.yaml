@@ -1,0 +1,8 @@
+id: ros_arm
+name: ros_arm
+version: 1.0.0
+author: cx
+icon: ''
+desc: the eye for ros_arm
+files:
+  - main.py
