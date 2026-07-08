@@ -1,0 +1,24 @@
+ydlidar_node:
+  ros__parameters:
+    port: /tmp/tty_laser
+    frame_id: laser_link
+    ignore_array: ""
+    baudrate: 115200
+    lidar_type: 1
+    device_type: 0
+    sample_rate: 3
+    intensity_bit: 8
+    abnormal_check_count: 4
+    fixed_resolution: false
+    reversion: true
+    inverted: true
+    auto_reconnect: true
+    isSingleChannel: true
+    intensity: true
+    support_motor_dtr: true
+    angle_max: 180.0
+    angle_min: -180.0
+    range_max: 64.0
+    range_min: 0.05
+    frequency: 2.0  # 核心：强制5Hz
+    invalid_range_is_inf: false
